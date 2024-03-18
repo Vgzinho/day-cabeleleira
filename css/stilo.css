@@ -1,0 +1,376 @@
+body{
+    font-family: "Roboto",sans-serif;
+  background:linear-gradient(rgb(5, 5, 5) 5%,rgb(221, 141, 4)40%);
+
+}
+.redes{
+display: flex;
+justify-content: flex-end;
+margin-right: 5rem;
+}.loca{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.logo-insta,.logo-wpp{
+    max-width: 3.5rem;
+padding:20px;
+
+    
+
+}
+.contato::first-letter{
+    color:#ffe209;
+}
+.contato{
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    color: #f2f2f2;
+    font-size: 20px;
+    animation: float 2s ease-in-out infinite;
+}
+.secao-itens{
+    height: 150px;
+    margin-bottom: 150px;
+    color: #ffe209;
+    font-size:19.3px;
+    background-color: rgba(7, 7, 7, 0.749);
+    border-radius: 10%;
+    
+}
+span{
+    background-color: red;
+}
+.lista-primaria{
+ display: flex;
+ 
+}
+.lista-primaria>li{
+margin: 50px 50px;
+margin-bottom: 150px;
+
+}
+
+   
+
+.div-tab{
+  
+    display: flex;
+    justify-content: center;
+ 
+    margin: 0 auto;
+  
+    width: 700px;
+}
+
+
+thead{
+ 
+    color: rgb(255, 217, 0);
+    margin-bottom: 10px;
+    background-color:black;
+}
+table td{
+    border: 1px solid black ;
+
+
+    padding-right: 30px;
+
+}
+
+
+
+table{
+    font-weight: 900;
+    width: 100%;
+
+    height: 400px;
+
+    border-collapse: collapse;
+    
+    
+    width: 0 500px;
+    background-color: #fdfdfd;
+ margin: 0 auto;
+   
+}
+
+
+    
+th,td{
+    border: 2px solid black;
+     text-align: left;
+
+}
+
+
+
+
+
+.titulo{
+    text-align: center;
+font-size: xx-large;
+font-weight: 900;
+
+}
+
+.logo{
+
+
+  display:flex;
+  justify-content: center;
+ margin-top: -150px;
+
+}
+.day{
+
+    border-radius: 50%;
+  
+    width:24rem;
+}
+.titulo2{
+    border-radius:50%;
+    margin: 200px 0 30px 0;
+    text-align: center;
+    background-color: rgba(46, 7, 82, 0.252);
+    color: rgb(242, 255, 0);
+    font-size: 2rem;
+
+   
+}
+h2{
+    font-size: 40px;
+}
+
+.lista-servicos{
+  
+  font-size: 1.7rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ background-color: rgba(0, 0, 0, 0.582);
+border-radius: 5%;
+   
+    text-align: center;
+    margin-bottom: 1rem;
+    color:#f2f2f2;
+    
+   
+}
+
+
+.fotos{
+
+    width: 400px;
+    height: 300px;
+ 
+    transition: all ease-in-out 500ms ;
+    border-radius: 10%;
+}
+.fotos:hover{
+
+    transform: scale(1.1);
+}
+
+.servicos{
+    display: flex;
+    max-width: 100%;
+
+    
+}
+.h2loc{
+    background-color:rgba(246, 246, 246, 0.464);
+    border: 1px solid rgba(0, 0, 0, 0.348);
+    text-align: center;
+    font-size: xx-large;
+}
+
+ 
+
+@keyframes float {
+   
+    50%{
+        transform:translateY(4px);
+    }
+}
+ .hs{
+    text-align: center;
+    color: #eede00;
+ }
+
+.seta{
+    max-width: 30px;
+}
+
+
+@media (max-width: 780px) {
+    
+    .space{
+        margin-right: 300px;
+        width:max-content;
+        height: 100%;
+        
+     
+    }
+    p{
+        color: red;
+        
+    }
+    
+    .hs{
+        text-align: center;
+        font-size: 2rem;
+        
+    }
+    .titulo2{
+        background-color:rgba(0, 0, 0, 0.824);
+    }
+ .div-tab{
+    height: 50px;
+    width: max-content;
+ }
+ .lista-primaria{
+    display: block;
+    flex-direction: row;
+    flex-basis: auto;
+    height: max-content;
+    width: max-content;
+    font-size: 1rem;
+    
+    width: 100%;
+    border-radius: 10px;
+
+}
+.lista-primaria li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    margin-bottom: 0px;
+color: #0900bc;    
+
+ }
+ .secao-itens{
+    height: max-content;
+
+  
+  
+ }
+ .contato{
+    margin-top: 0px;
+    animation: float 2s ease-in-out infinite;
+    color:goldenrod;
+    
+ }
+
+
+    
+
+   
+     .logo-insta,.logo-wpp {
+        max-width:3rem; /* Reduzindo o tamanho da logo e dos logos do WhatsApp */
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .logo{
+        margin-top:-50px;
+        padding: 100px;
+        width: 200px;
+        height: 200px;
+        max-width: 100%;
+    }
+  .redes{
+    margin-left:2px;
+  }
+  
+    .lista-servicos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+    .filhos {
+        flex: 0 0 50%;
+        padding: 10px;
+        max-width: 100%;
+    }
+    body{
+        background: linear-gradient(rgb(0, 0, 0) 10%,rgb(2, 44, 152));
+        overflow-x: hidden;
+    }
+ .fotos{
+    max-width: 100%;
+ }
+
+}
+
+@media (max-width: 980px) {
+    p{
+        color: red;
+        
+    }
+    
+  .loca{
+    margin-left: 1px;
+    margin-right: -90px;
+    padding: 10px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    .fotos{
+  
+    .contato{
+        margin-top: -4px;
+    }
+    .lista-servicos{
+        margin:0 100px;
+
+    }
+    
+   
+    .div-tab{
+        
+      margin: 0 3px 0 3px;
+        width: 70%;
+    }
+    .filhos{
+        margin: 0 auto;
+
+    }
+    .redes {
+        display: flex;
+        text-align: center;
+    }
+    .logo-wpp, .logo-insta {
+
+        margin-right: 100px;
+    }
+
+ 
+    .titulo2 {
+        text-align: center;
+    }
+    .servicos {
+        padding: 10px;
+    }
+   
+    iframe{
+     width: 100%;
+     height: 100%;
+    
+    }
+    .h2loc {
+        width: 100%;
+        
+      
+        
+    }
+    
+
+   
+    
+   
+}
+}
